@@ -1,18 +1,16 @@
 # YTModuleValidationPackage
 
+MySwiftPackage is a Swift package that provides different validations , e.g., "a set of validation for email, phonenumber etc"].
+
 Features
- Easily validate your properties 👮
- Predefined validations 🚦
- Logical Operators to combine validations 🔗
- Customization and configuration to your needs 💪
-Installation
-Swift Package Manager
-To integrate using Apple's Swift Package Manager, add the following as a dependency to your Package.swift:
+Validations 
 
-dependencies: [
-    .package(url: "https://github.com/yashtechgit/YTModuleValidationPackage.git", from: "1.0.0")
-]
-Or navigate to your Xcode project then select Swift Packages, click the “+” icon and search for ValidatedPropertyKit.
+To add MySwiftPackage to your Swift project, follow these steps:
 
-Manually
-If you prefer not to use any of the aforementioned dependency managers, you can integrate ValidatedPropertyKit into your project manually. Simply drag the Sources Folder into your Xcode project.
+
+Xcode
+Open your Xcode project.
+Go to File > Swift Packages > Add Package Dependency.
+Enter the package repository URL: https://github.com/yashtechgit/YTModuleValidationPackage.git
+
+Choose the version rule (e.g., Up to Next Major Version), and Xcode will resolve the dependency.
