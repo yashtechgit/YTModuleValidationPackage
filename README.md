@@ -16,6 +16,18 @@ Enter the package repository URL: https://github.com/yashtechgit/YTModuleValidat
 
 Choose the version rule (e.g., Up to Next Major Version), and Xcode will resolve the dependency.
 
+## Installation Guide for YTModuleValidationPackage POD
+You want to add pod 'YTModuleValidationPackage', '~> 1.0' similar to the following to your Podfile:
+
+target 'MyApp' do
+  pod 'YTModuleValidationPackage', '~> 1.0'
+end
+Then run a pod install inside your terminal, or from CocoaPods.app.
+
+Alternatively to give it a test run, run the command:
+
+pod try YTModuleValidationPackage
+
 
 ## Author
 
