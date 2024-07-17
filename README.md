@@ -2,15 +2,26 @@
 
 MySwiftPackage is a Swift package that provides different validations , e.g., "a set of validation for email, phonenumber etc"].
 
-Features
-Validations 
+## Example
 
-To add MySwiftPackage to your Swift project, follow these steps:
+To run the Demoapp project, clone the repo, and run DemoApp from the directory first.
 
+## Requirements
 
-Xcode
+## Installation
+
 Open your Xcode project.
 Go to File > Swift Packages > Add Package Dependency.
 Enter the package repository URL: https://github.com/yashtechgit/YTModuleValidationPackage.git
 
 Choose the version rule (e.g., Up to Next Major Version), and Xcode will resolve the dependency.
+
+
+## Author
+
+yashtechgit, yashtechnologies@gmail.com
+
+## License
+
+YTModuleValidationPackage is available under the MIT license. See the LICENSE file for more info.
+# YTModuleValidationPackage
