@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YTModuleValidationPackage'
-  s.version          = '1.0.2'
+  s.version          = 'v1.0.2'
   s.summary         = 'A Swift library for common utilities and extensions.'
 
 
