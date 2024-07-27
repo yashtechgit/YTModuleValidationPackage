@@ -98,7 +98,7 @@ public class Validator {
     /// Validates if the provided string is a valid URL.
     /// - Parameter urlString: The URL string to validate.
     /// - Returns: `true` if the URL is valid, otherwise `false`.
-    public func isValidURL(_ urlString: String) -> Bool {
+    public func isValidURL1(_ urlString: String) -> Bool {
         if let url = URL(string: urlString) {
             return UIApplication.shared.canOpenURL(url)
         }
